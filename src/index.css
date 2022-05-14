@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hero {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650578537/Oasis%20Integrated%20Health/sea_z6wiuy.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650578537/Oasis%20Integrated%20Health/sea_z6wiuy.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+.hero {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_crop,h_732/v1651026207/Oasis%20Integrated%20Health/sea_smt6ra.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_crop,h_732/v1651026207/Oasis%20Integrated%20Health/sea_smt6ra.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+.shapes {
+  background-image: url("./img/shapes.svg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-gradient {
+  background:linear-gradient(135deg, white 0%, #1d4ed8 100%);
+  -webkit-box-decoration-break:clone
+}
+
+
+
+
+
+
