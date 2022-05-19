@@ -1,10 +1,10 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar1() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav class="absolute w-full z-50 bg-white border-gray-200 px-4 md:px-16 py-2 shadow-lg">
+    <nav class=" w-full z-50 bg-white border-gray-200 px-4 md:px-16 py-2 shadow-lg">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <Link to="/" class="flex items-center">
           <img
@@ -65,53 +65,65 @@ export default function Navbar1() {
         >
           <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:text-lg">
             <li>
-              <Link
+              <NavLink
                 to="/"
-                class="block py-2 pr-4 pl-3 text-white bg-blue-700 border-black md:hover:border-b md:border-black border-gray-100 md:bg-transparent md:text-blue-700 md:p-0"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 md:border-0 border-black md:hover:border-b md:border-black border-gray-100 md:bg-transparent md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
                 aria-current="page"
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/about"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
               >
                 About
-              </Link>
+              </NavLink>
             </li>
             {/* <li>
               <a
                 href="#services"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
               >
                 Services
               </a>
             </li> */}
             <li>
-              <Link
+              <NavLink
                 to="/faq"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
               >
                 FAQ
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/testimonials"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
               >
                 Testimonials
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/contact"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

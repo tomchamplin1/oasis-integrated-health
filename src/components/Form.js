@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form() {
   return (
-    <div className="py-24">
+    <div className="md:py-24 py-12">
       <div className="flex flex-wrap grid grid-cols-1 md:grid-cols-2 px-4 md:px-20">
         <div className="text-left">
           <h3 class="pt-5 md:pt-0 text-lg text-left text-blue-700 font-extrabold">

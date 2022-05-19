@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Questions() {
   return (
-    <section id="FAQ" class="pt-24 pb-24 shapes">
+    <section id="FAQ" class="md:py-24 py-12 shapes">
       <div class="md:px-20 px-5">
         <div class="flex flex-wrap grid grid-cols-1 md:grid-cols-2">
           <div class="my-auto">

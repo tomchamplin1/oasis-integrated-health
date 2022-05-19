@@ -4,11 +4,19 @@ import { Link } from "react-router-dom";
 export default function Who() {
   return (
     <section id="about" className="bg-gray-100">
-      <div class="container mx-auto px-4 py-24">
-        <h3 class="md:text-4xl text-5xl font-extrabold leading-tight text-center text-black">
+      <div class="mx-auto px-4 md:px-24 md:py-24 py-12">
+        <h3 class="text-center text-lg text-blue-700 font-extrabold">
+          WHO WE ARE
+        </h3>
+        <h3 class="pb-3 md:text-4xl text-5xl font-extrabold leading-tight text-center text-black">
           Our Team
         </h3>
-        <div className="py-24 grid sm:items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-items-center px-12 gap-5">
+        <p className="text-center md:w-3/5 w-5/5 mx-auto">
+          Based in El Paso, we are healthcare experts with one goal in mind: to
+          make healthy humans. Contact us today to learn how we can help you
+          become your healthiest self.
+        </p>
+        <div className="md:py-24 py-12 grid sm:items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-items-center px-12 gap-5">
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg hover:scale-105 rounded-3xl">
             <picture>
               <source

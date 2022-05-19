@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonials() {
   return (
-    <div className="py-24 md:px-24 px-5">
+    <div className="md:py-24 py-12 md:px-24 px-5">
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-5 w-4/5 md:w-3/5 mx-auto">
         <div class="text-center rounded-xl overflow-hidden shadow-lg duration-700 ">
           <div className="h1 p-5">

@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "animate.css";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function CTA() {
   return (
     <div class="py-12 px-4 w-full text-center bg-blue-700">
+    <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
       <h5 class="mb-2 pt-5 text-5xl font-bold text-white">
         Contact us for a free consultation
       </h5>
@@ -20,6 +24,7 @@ export default function CTA() {
           </Link>
         </p>
       </div>
+      </AnimationOnScroll>
     </div>
   );
 }

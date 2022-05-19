@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Cards() {
   return (
-    <section id="services" class="pt-24 pb-24">
+    <section id="services" class="md:py-24 py-12">
       <div class="md:px-24 mx-auto px-5">
         <div class="flex flex-wrap grid grid-cols-1 md:grid-cols-2">
           <div class="hidden lg:block my-auto md:w-5/5 mx-auto text-center align-center justify-center pb-12 md:pb-0">
