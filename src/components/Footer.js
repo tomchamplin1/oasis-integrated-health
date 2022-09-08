@@ -72,17 +72,14 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-600">
               <li class="mb-4">
-                <a
-                  href="mailto:oasiswellness@icloud.com"
-                  class="hover:underline"
-                >
+                <a href="mailto:oihealthier@gmail.com" class="hover:underline">
                   <span className="font-bold">Email</span>:
-                  oasiswellness@icloud.com
+                  oihealthier@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+18323262666" class="hover:underline">
-                  <span className="font-bold">Phone</span>: +1 (832) 326-2666
+                <a href="tel:+19152552060" class="hover:underline">
+                  <span className="font-bold">Phone</span>: +1 (915) 255-2060
                 </a>
               </li>
             </ul>

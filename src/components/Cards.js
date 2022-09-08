@@ -31,7 +31,7 @@ export default function Cards() {
             <p className="text-center">
               We provide cutting edge medical care services in El Paso. We
               believe everyone should have the opportunity to improve their
-              health and extent their lifespan.
+              health and extend their lifespan.
             </p>
             <div class="px-10 pt-12 md:pt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
               <div class="text-center rounded border border-gray-200 overflow-hidden hover:shadow-lg duration-700">

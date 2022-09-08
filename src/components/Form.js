@@ -16,16 +16,15 @@ export default function Form() {
           <ul>
             <li className="pb-5">
               <a
-                href="mailto:oasiswellness@icloud.com"
+                href="mailto:oihealthier@gmail.com"
                 class="hover:underline text-lg"
               >
-                <span className="font-bold">Email</span>:
-                oasiswellness@icloud.com
+                <span className="font-bold">Email</span>: oihealthier@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:+18323262666" class="hover:underline text-lg">
-                <span className="font-bold">Phone</span>: +1 (832) 326-2666
+              <a href="tel:+1 (915) 255-2060" class="hover:underline text-lg">
+                <span className="font-bold">Phone</span>: +1 (915) 255-2060
               </a>
             </li>
           </ul>
