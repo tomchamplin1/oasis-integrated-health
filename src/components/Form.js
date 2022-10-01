@@ -23,7 +23,7 @@ export default function Form() {
               </a>
             </li>
             <li>
-              <a href="tel:+1 (915) 255-2060" class="hover:underline text-lg">
+              <a href="tel:+19152552060" class="hover:underline text-lg">
                 <span className="font-bold">Phone</span>: +1 (915) 255-2060
               </a>
             </li>
