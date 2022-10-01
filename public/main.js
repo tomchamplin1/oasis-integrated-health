@@ -2,16 +2,47 @@ const path = require("path");
 const fs = require("fs");
 
 const dirPath = path.join(__dirname, "../posts");
+const dirPathPages = path.join(__dirname, "../src/pages/content");
 let postlist = [];
+let pagelist = [];
+
+const months = {
+  "01": "January",
+  "02": "February",
+  "03": "March",
+  "04": "April",
+  "05": "May",
+  "06": "June",
+  "07": "July",
+  "08": "August",
+  "09": "September",
+  10: "October",
+  11: "November",
+  12: "December",
+};
+
+const formatDate = (date) => {
+  const datetimeArray = date.split("T");
+  const dateArray = datetimeArray[0]?.split("-");
+  const month = dateArray[1];
+  const monthName = months[dateArray[1]];
+  const day = dateArray[2];
+  const year = dateArray[0];
+
+  return {
+    month: month,
+    monthName: monthName,
+    day: day,
+    year: year,
+  };
+};
 
 const getPosts = () => {
   fs.readdir(dirPath, (err, files) => {
-    console.log(
-      "There are " + files.length + " files in the content directory."
-    );
     if (err) {
       return console.log("Failed to list contents of directory: " + err);
     }
+    let ilist = [];
     files.forEach((file, i) => {
       let obj = {};
       let post;
@@ -31,7 +62,6 @@ const getPosts = () => {
             metadata.forEach((line) => {
               obj[line.split(": ")[0]] = line.split(": ")[1];
             });
-            console.log(obj);
             return obj;
           }
         };
@@ -45,19 +75,30 @@ const getPosts = () => {
         const metadataIndices = lines.reduce(getMetadataIndices, []);
         const metadata = parseMetadata({ lines, metadataIndices });
         const content = parseContent({ lines, metadataIndices });
+        const parsedDate = metadata.date
+          ? formatDate(metadata.date)
+          : new Date();
+        const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`;
+        const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`;
+        const date = new Date(datestring);
+        const timestamp = date.getTime() / 1000;
         post = {
-          id: i + 1,
+          id: timestamp ? timestamp : i + 1,
           title: metadata.title ? metadata.title : "No title given",
-          date: metadata.date ? metadata.date : "No date given",
-          thumbnail: metadata.thumbnail
-            ? metadata.thumbnail
-            : "No thumbnail given",
+          author: metadata.author ? metadata.author : "No author given",
+          date: publishedDate ? publishedDate : "No date given",
+          time: parsedDate["time"],
+          thumbnail: metadata.thumbnail,
           content: content ? content : "No content given",
         };
         postlist.push(post);
-        if (i === files.length - 1) {
-          let data = JSON.stringify(postlist);
-          fs.writeFileSync("public/posts.json", data);
+        ilist.push(i);
+        if (ilist.length === files.length) {
+          const sortedList = postlist.sort((a, b) => {
+            return a.id < b.id ? 1 : -1;
+          });
+          let data = JSON.stringify(sortedList);
+          fs.writeFileSync("src/posts.json", data);
         }
       });
     });
@@ -65,4 +106,25 @@ const getPosts = () => {
   return;
 };
 
+const getPages = () => {
+  fs.readdir(dirPathPages, (err, files) => {
+    if (err) {
+      return console.log("Failed to list contents of directory: " + err);
+    }
+    files.forEach((file, i) => {
+      let page;
+      fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
+        page = {
+          content: contents,
+        };
+        pagelist.push(page);
+        let data = JSON.stringify(pagelist);
+        fs.writeFileSync("src/pages.json", data);
+      });
+    });
+  });
+  return;
+};
+
 getPosts();
+getPages();
