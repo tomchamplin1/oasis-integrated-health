@@ -9,11 +9,11 @@ const PostList = () => {
     return post.content.split(" ").slice(0, 20).join(" ") + "...";
   });
   return (
-    <div className="px-10 pt-12 md:pt-12 gap-5 w=3/5">
-      <h3 class="text-center text-lg md:text-left text-blue-700 font-extrabold">
+    <div className="px-16 pt-12 md:pt-12 gap-5">
+      <h3 class="text-center text-lg md:text-left text-blue-700 font-extrabold px-8">
         ALL POSTS
       </h3>
-      <h3 class="mb-12 md:text-4xl text-5xl font-extrabold leading-tight md:text-left text-center">
+      <h3 class="mb-12 md:text-4xl text-5xl font-extrabold leading-tight md:text-left text-center px-8">
         Blog
       </h3>
       <div class="pb-24 grid sm:items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 justify-items-center px-12 gap-5">
