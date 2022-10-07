@@ -22,13 +22,12 @@ const PostList = () => {
           return (
             <Link to={`/blog/${post.slug}`}
               key={i}
-              className="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg hover:scale-105 rounded-3xl"
+              className="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg hover:scale-105 rounded-3xl "
             >
               <div className="mx-auto">
                 {post.thumbnail && (
                   <img
-                    className="mx-auto"
-                    width={400}
+                    className="h-80 w-80 object-fill"
                     src={post.thumbnail}
                     alt=""
                   />

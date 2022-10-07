@@ -2508,6 +2508,11 @@
   dependencies:
     "defer-to-connect" "^2.0.0"
 
+"@tailwindcss/aspect-ratio@^0.4.2":
+  "integrity" "sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ=="
+  "resolved" "https://registry.npmjs.org/@tailwindcss/aspect-ratio/-/aspect-ratio-0.4.2.tgz"
+  "version" "0.4.2"
+
 "@testing-library/dom@^8.0.0", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-9LId28I+lx70wUiZjLvi1DB/WT2zGOxUh46glrSNMaWVx849kKAluezVzZrXJfTKKoQTmEOutLes/bHg4Bj3aA=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.11.3.tgz"
@@ -16728,7 +16733,7 @@
     "mkdirp" "^0.5.1"
     "untildify" "^3.0.3"
 
-"tailwindcss@^3.0.2", "tailwindcss@^3.0.23":
+"tailwindcss@^3.0.2", "tailwindcss@^3.0.23", "tailwindcss@>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1":
   "integrity" "sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.23.tgz"
   "version" "3.0.23"
