@@ -14,6 +14,7 @@ import Blog from "./pages/Blog";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import Post from "./pages/Post";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/about" element={<AboutUs />} exact />
           <Route path="/faq" element={<FAQ />} exact />
           <Route path="/blog" element={<Blog />} exact />
+          <Route path="/post/:id" element={<Post />} />
           <Route path="/testimonials" element={<Testimonials />} exact />
           <Route path="/contact" element={<Contact />} exact />
           {/* <Route element={<NotFound />} /> */}
