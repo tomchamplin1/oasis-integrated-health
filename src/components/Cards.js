@@ -155,12 +155,12 @@ export default function Cards() {
       </div>
       <div className="text-center">
         <p class="md:pt-12 mx-auto">
-          <Link
-            to="/contact"
+          <a
+            href="https://oihealth.evahealth.com/login"
             class="rounded inline-block bg-blue-700 hover:bg-blue-800 text-white text-lg tracking-wider py-4 px-8 shadow font-bold"
           >
             Get started
-          </Link>
+          </a>
         </p>
       </div>
     </section>

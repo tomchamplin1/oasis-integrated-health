@@ -33,7 +33,7 @@ const PostList = () => {
                   />
                 )}
                 <h2 className="post-title">
-                  <Link className="links" to={`/post/${post.id}`}>
+                  <Link className="links" to={`/blog/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h2>
@@ -42,7 +42,7 @@ const PostList = () => {
               <hr />
               <ReactMarkdown source={excerptList[i]} escapeHtml={false} />
               <small>
-                <Link className="links" to={`/post/${post.id}`}>
+                <Link className="links" to={`/blog/${post.slug}`}>
                   Read more
                 </Link>
               </small>

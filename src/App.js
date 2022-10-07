@@ -26,7 +26,7 @@ export default function App() {
           <Route path="/about" element={<AboutUs />} exact />
           <Route path="/faq" element={<FAQ />} exact />
           <Route path="/blog" element={<Blog />} exact />
-          <Route path="/post/:id" element={<Post />} />
+          <Route path="/blog/:slug" element={<Post />} />
           <Route path="/testimonials" element={<Testimonials />} exact />
           <Route path="/contact" element={<Contact />} exact />
           {/* <Route element={<NotFound />} /> */}

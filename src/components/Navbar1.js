@@ -19,7 +19,7 @@ export default function Navbar1() {
             type="button"
             class="rounded hidden lg:block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
           >
-            <Link to="/contact">Get started -></Link>
+            <a href="https://oihealth.evahealth.com/login">Get started -></a>
           </button>
           <button
             data-collapse-toggle="mobile-menu-4"

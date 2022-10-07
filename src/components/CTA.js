@@ -9,7 +9,7 @@ export default function CTA() {
     <div class="py-12 px-4 w-full text-center bg-blue-700">
     <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
       <h5 class="mb-2 pt-5 text-5xl font-bold text-white">
-        Contact us for a free consultation
+        Contact us today
       </h5>
       <p class="mb-5 text-base text-white sm:text-2xl">
         We'd love to connect!

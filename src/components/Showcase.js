@@ -10,10 +10,10 @@ export default function Showcase() {
                     <h1 class="pt-12 md:pt-0 mb-4 text-5xl md:text-6xl font-extrabold leading-none text-black">Unleash your healthiest self</h1>
                     <p class="mb-6 text-black text-xl">Genomic medicine, health optimization, and preventative care specialists in El Paso, TX</p>
                     <p class="mb-12">
-                        <Link to="/contact"
+                        <a href="https://oihealth.evahealth.com/login"
                             class="rounded inline-block bg-blue-700 hover:bg-blue-800 text-white text-md tracking-wider py-3 px-6 shadow font-bold">
                             Start now
-                        </Link>
+                        </a>
                     </p>
                 </div>
                 <div class="hidden lg:block w-full text-center lg:text-right lg:text-left self-end">
