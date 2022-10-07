@@ -1,5 +1,5 @@
 ---
-title: "New Post "
+title: New Post
 author: Kristen White
 slug: new-posty
 date: 2022-10-07T21:45:08.589Z
