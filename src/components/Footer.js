@@ -53,16 +53,19 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-600">
               <li class="mb-4">
-                <a>Health Optimization</a>
+                <a>Nutrigenomic Medicine</a>
               </li>
               <li class="mb-4">
-                <a>Genomic Medicine</a>
+                <a>Health Optimization</a>
               </li>
               <li class="mb-4">
                 <a>Preventative Care</a>
               </li>
               <li class="mb-4">
-                <a>Primary Care Management</a>
+                <a>Individualized Primary Care</a>
+              </li>
+              <li class="mb-4">
+                <a>Hormone Optimization</a>
               </li>
             </ul>
           </div>

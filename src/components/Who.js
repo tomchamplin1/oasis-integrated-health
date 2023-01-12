@@ -61,7 +61,7 @@ export default function Who() {
               />
             </picture>
             <h5 class="p-3 text-lg tracking-tight text-black text-bold">
-              Kristen White, BSN
+              Kristen White, APRN, FNP-C
             </h5>
             {/* <p class="text-gray-700 pb-2">
             Kristen is a BSN graduate of Texas Woman’s University and has 20+

@@ -29,11 +29,12 @@ export default function Cards() {
               The <i>Oasis</i> Way
             </h3>
             <p className="text-center">
-              We provide cutting edge medical care services in El Paso. We
+              We provide forward thinking medical care services in El Paso. We
               believe everyone should have the opportunity to improve their
               health and extend their lifespan.
             </p>
             <div class="px-10 pt-12 md:pt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+              {/* ------ */}
               <div class="text-center rounded border border-gray-200 overflow-hidden hover:shadow-lg duration-700">
                 <div className="h1 pt-5">
                   <svg
@@ -50,17 +51,17 @@ export default function Cards() {
                     />
                   </svg>
                 </div>
-
                 <div class="px-6 py-4">
-                  <h5 class="mb-2 text-xl md:text-3xl font-bold text-black text-center">
-                    Health Optimization
+                  <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
+                    Hormone Optimization
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
-                    We design a health optimization program based on your
-                    specific genetic profile and lifestyle needs.
+                    We conduct a detailed evaluation and optimization of your
+                    hormone function.
                   </p>
                 </div>
               </div>
+              {/* ------ */}
               <div class="text-center rounded border border-gray-200 overflow-hidden hover:shadow-lg duration-700">
                 <div className="h1 pt-5">
                   <svg
@@ -75,10 +76,9 @@ export default function Cards() {
                     <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1V1Zm2 14h2v-3H7v3Zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3Zm0-14H6v1h4V1Zm2 7v7h3V8h-3Zm-8 7V8H1v7h3Z" />
                   </svg>
                 </div>
-
                 <div class="px-6 py-4">
-                  <h5 class="mb-2 text-xl md:text-3xl font-bold text-black text-center">
-                    Genomic Medicine
+                  <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
+                    Nutrigenomic Medicine
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
                     After analyzing your genetic profile, a lifestyle
@@ -87,6 +87,7 @@ export default function Cards() {
                   </p>
                 </div>
               </div>
+              {/* ------ */}
               <div class="text-center rounded border border-gray-200 overflow-hidden hover:shadow-lg duration-700">
                 <div className="h1 pt-5">
                   <svg
@@ -103,7 +104,7 @@ export default function Cards() {
                 </div>
 
                 <div class="px-6 py-4">
-                  <h5 class="mb-2 text-xl md:text-3xl font-bold text-black text-center">
+                  <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
                     Preventative Care
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
@@ -112,6 +113,7 @@ export default function Cards() {
                   </p>
                 </div>
               </div>
+              {/* ------ */}
               <div class="text-center rounded border border-gray-200 overflow-hidden hover:shadow-lg duration-700">
                 <div className="h1 pt-5">
                   <svg
@@ -129,8 +131,8 @@ export default function Cards() {
                 </div>
 
                 <div class="px-6 py-4">
-                  <h5 class="mb-2 text-xl md:text-3xl font-bold text-black text-center">
-                    Primary Care Management
+                  <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
+                    Individualized Primary Care
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
                     We provide not only wellness medicine, but also disease

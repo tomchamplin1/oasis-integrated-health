@@ -45,16 +45,18 @@ export default function AboutM() {
             </div>
             <div class="flex-shrink-0 text-left block ">
               <h5 class="pb-2 text-2xl tracking-tight text-black text-bold">
-                Kristen White, Family Nurse Practitioner
+                Kristen White, APRN, FNP-C
               </h5>
               <p class="text-gray-700">
                 An El Paso native, Kristen is a BSN graduate of Texas Woman’s
-                University and has more than 20 years of experience working in
-                the health care field. She has worked with patients of all ages
-                and disease states both in and out of the hospital setting. Over
-                the last 10 years, Kristen’s passion and specialty have moved
-                away from primarily sick management and towards lifestyle
-                optimization and health maintenance throughout the life span.
+                University and MSN graduate of University of Texas at
+                Arlington's Family Nurse Practictioner program. She has more
+                than 20 years of experience working in the health care field.
+                Kristen has worked with patients of all ages and disease states
+                both in and out of the hospital setting. Over the last 10 years,
+                Kristen’s passion and specialty have moved away from primarily
+                sick management and towards lifestyle optimization and health
+                maintenance throughout the life span.
               </p>
             </div>
           </div>
