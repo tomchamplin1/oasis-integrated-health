@@ -9,7 +9,7 @@ export default function Form() {
             GET IN TOUCH
           </h3>
           <h1 class="pb-5 md:text-5xl text-5xl font-extrabold leading-none text-black mx-auto">
-            Contact us today for a free consultation
+            Contact us today for a consultation
           </h1>
           <p className="text-gray-500 pb-5 text-xl">Oasis Integrated Health</p>
           <p className="pb-5 text-lg">El Paso, TX</p>

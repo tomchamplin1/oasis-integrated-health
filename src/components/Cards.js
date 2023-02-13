@@ -29,8 +29,8 @@ export default function Cards() {
               The <i>Oasis</i> Way
             </h3>
             <p className="text-center">
-              We provide forward thinking medical care services in El Paso. We
-              believe everyone should have the opportunity to improve their
+              We provide forward thinking medical care services in El Paso, TX.
+              We believe everyone should have the opportunity to improve their
               health and extend their lifespan.
             </p>
             <div class="px-10 pt-12 md:pt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
@@ -105,11 +105,11 @@ export default function Cards() {
 
                 <div class="px-6 py-4">
                   <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
-                    Preventative Care
+                    Medically Supervised Weight Loss
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
-                    We focus on health maintenance and prevention through
-                    frequent diagnostics and monthly health coaching visits.
+                    We will help you construct a safe and effective weight loss
+                    strategy.
                   </p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function Cards() {
 
                 <div class="px-6 py-4">
                   <h5 class="mb-2 text-lg md:text-xl font-bold text-black text-center">
-                    Individualized Primary Care
+                    Individualized Primary and Preventative Care
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
                     We provide not only wellness medicine, but also disease

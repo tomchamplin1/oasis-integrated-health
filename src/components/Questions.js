@@ -16,10 +16,10 @@ export default function Questions() {
               <div class="mx-auto w-full  text-left">
                 <div class="mb-12">
                   <h5 class="font-bold mb-2 text-xl">
-                    Why is knowing my genetic profile necessary?
+                    Why is knowing my nutrigenomic profile necessary?
                   </h5>
                   <p>
-                    Genetic sequencing allows us to design a program
+                    Nutrigenomic sequencing allows us to design a program
                     specifically for you. Every single human has a different
                     genetic sequence and predisposition for disease. By knowing
                     what you are likely to suffer from in the future, we will be
