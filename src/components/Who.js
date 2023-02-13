@@ -20,11 +20,11 @@ export default function Who() {
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg hover:scale-105 rounded-3xl">
             <picture>
               <source
-                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1650578590/Oasis%20Integrated%20Health/jeremy-pic_vibi2h.webp"
+                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1676263365/Oasis%20Integrated%20Health/Subject_a1iw8i.webp"
                 type="image/webp"
               />
               <img
-                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1650578590/Oasis%20Integrated%20Health/jeremy-pic_vibi2h.jpg"
+                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1676263365/Oasis%20Integrated%20Health/Subject_a1iw8i.jpg"
                 className="mx-auto rounded-t-3xl"
                 loading="lazy"
                 decoding="async"
@@ -49,11 +49,11 @@ export default function Who() {
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg hover:scale-105 rounded-3xl">
             <picture>
               <source
-                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1650578542/Oasis%20Integrated%20Health/kristen-headshot_zqkgyp.webp"
+                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1676263728/Oasis%20Integrated%20Health/kristen-removebg-preview_sbuhal.webp"
                 type="image/webp"
               />
               <img
-                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1650578542/Oasis%20Integrated%20Health/kristen-headshot_zqkgyp.jpg"
+                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_600/v1676263728/Oasis%20Integrated%20Health/kristen-removebg-preview_sbuhal.jpg"
                 className="mx-auto rounded-t-3xl"
                 loading="lazy"
                 decoding="async"
