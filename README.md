@@ -2,5 +2,5 @@
 
 ## Built by Tom Champlin @ https://www.sitecheer.com
 
-Built using React, React-Router, & Tailwind. Deployed via Netlify.
+Built using React, React-Router, Tailwind, and Netlify CMS. Deployed via Netlify.
 
