@@ -19,11 +19,15 @@ export default function Questions() {
                     Why is knowing my nutrigenomic profile necessary?
                   </h5>
                   <p>
-                    Nutrigenomic sequencing allows us to design a program
-                    specifically for you. Every single human has a different
-                    genetic sequence and predisposition for disease. By knowing
-                    what you are likely to suffer from in the future, we will be
-                    able to intervene before the disease develops.
+                    With nutrigenomic sequencing, we can create a program
+                    tailored to your unique genetic makeup. As every individual
+                    has a different genetic sequence and predisposition for
+                    disease, this personalized approach allows us to identify
+                    potential health risks and intervene before they develop
+                    into more serious conditions. Don't wait for illness to
+                    strike – let us use the latest technology to design a
+                    program that addresses your specific needs and helps you
+                    achieve optimal health and wellness.
                   </p>
                 </div>
               </div>
@@ -34,10 +38,17 @@ export default function Questions() {
                     necessary?
                   </h5>
                   <p>
-                    By evaluating cardiovascular risks, lipid profiles, renal
-                    function, hormone status and vitamin and mineral levels
-                    through blood testing, we can make the most informed medical
-                    recommendations.
+                    Through comprehensive blood testing, we can gain valuable
+                    insights into your cardiovascular health, lipid profiles,
+                    renal function, hormone status, and vitamin and mineral
+                    levels. Armed with this information, we can provide you with
+                    the most accurate and personalized medical recommendations
+                    possible. At Oasis Integrated Health, we believe that
+                    prevention is key, and that by proactively identifying and
+                    addressing potential health issues, we can help you achieve
+                    optimal wellness and vitality. Contact us today to learn
+                    more about our cutting-edge testing and personalized
+                    approach to healthcare.
                   </p>
                 </div>
               </div>
@@ -47,9 +58,9 @@ export default function Questions() {
                     Why are lifestyle factors so important?
                   </h5>
                   <p>
-                    Altering lifestyle factors is the foundation of improving
-                    one's health. The more we know about how your life, the
-                    better we will be able to help.
+                    The key to improving your health is by modifying lifestyle
+                    factors. The more we understand about your unique lifestyle,
+                    the better we can help you achieve your health goals.
                   </p>
                 </div>
               </div>
@@ -59,18 +70,33 @@ export default function Questions() {
                 <h5 class="font-bold mb-2 text-xl">
                   What are the steps in the process?
                 </h5>
-                <p>
-                  1. Initial consultation
-                  <br />
-                  2. Genetic and laboratory analysis
-                  <br />
-                  3. Plan development
-                  <br />
-                  4. Monthly health coaching with FNP
-                  <br />
-                  5. Text access to providers with 48 hr response time
-                  <br />
-                  6. Bi-monthly meetings with MD
+                <p class="pb-3">
+                  1. Register online and schedule the initial consultation.
+                </p>
+                <p class="pb-3">
+                  2. Once we have made an evaluation, we will recommend the
+                  testing needed.
+                </p>
+                <p class="pb-3">
+                  3. We'll start by reviewing your intake questionnaire,
+                  gathering more detailed information during a one-on-one
+                  consultation, and incorporating your unique testing results
+                  and genetic information. With this comprehensive
+                  understanding, we'll develop a personalized plan that's
+                  tailored to align with your individual health goals. Let us
+                  help you achieve the results you desire with a fully
+                  customized approach designed just for you.
+                </p>
+                <p class="pb-3">
+                  4. Experience the transformation you've been striving for with
+                  our unparalleled follow-up process. Unlike other providers who
+                  only offer a once-a-year "check-up," we're committed to being
+                  fully invested in your journey towards achieving your health
+                  and wellness goals. Our team is dedicated to ensuring our
+                  recommendations create lasting changes in your life, and we'll
+                  work alongside you every step of the way. Let us help you turn
+                  your dreams into reality – seeing your transformation is our
+                  favorite part of the job!
                 </p>
               </div>
             </div>

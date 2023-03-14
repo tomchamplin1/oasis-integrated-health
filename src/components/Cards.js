@@ -29,9 +29,16 @@ export default function Cards() {
               The <i>Oasis</i> Way
             </h3>
             <p className="text-center">
-              We provide forward thinking medical care services in El Paso, TX.
-              We believe everyone should have the opportunity to improve their
-              health and extend their lifespan.
+              Experience the future of healthcare with Oasis Integrated Health –
+              the leading Precision Medicine provider specializing in
+              Nutrigenomic Medicine, Health Optimization, Hormone Optimization,
+              and Preventative Care.
+              <br />
+              <br />
+              Based in El Paso, Texas, our revolutionary approach to
+              personalized medicine has helped patients across the country
+              achieve optimal health and wellness. Trust us to help you achieve
+              your health goals and transform your life.
             </p>
             <div class="px-10 pt-12 md:pt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
               {/* ------ */}
@@ -81,9 +88,9 @@ export default function Cards() {
                     Nutrigenomic Medicine
                   </h5>
                   <p class="text-sm md:text-md text-gray-800">
-                    After analyzing your genetic profile, a lifestyle
-                    recommendation, supplement regimen and medication protocol
-                    will be provided.
+                    Based on your unique genetics, we can help you by giving
+                    customized recommendations for lifestyle and nutrition,
+                    prescription medications, and supplements.
                   </p>
                 </div>
               </div>

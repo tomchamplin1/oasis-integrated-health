@@ -12,7 +12,7 @@ export default function Showcase() {
             </h1>
             <p class="mb-6 text-black text-xl">
               Nutrigenomic medicine, health optimization, and preventative care
-              specialists in El Paso, TX
+              specialists in El Paso, Texas
             </p>
             <p class="mb-12">
               <a

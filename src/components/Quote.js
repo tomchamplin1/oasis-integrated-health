@@ -14,15 +14,23 @@ export default function Quote() {
         alt="wave buffer image"
       />
       <div class="grid grid-cols-1 md:grid-cols-2 w-full bg-blue-700 py-5 px-5 md:py-36 md:px-20 md:gap-12">
-        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce="true" className="my-auto">
-
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeft"
+          animateOnce="true"
+          className="my-auto"
+        >
           <h1 class="mb-2 text-2xl md:text-4xl font-bold text-white text-center md:text-left">
-            We are healthcare professionals with over 45 years of experience.
-            Together we use genetics, lifestyle optimization, and disease
-            prevention to help you live a fuller and happier life.
+            Trust the experts with decades of experience in healthcare to help
+            you achieve your optimal health and happiness. Let us guide you
+            towards a happier, healthier future – your journey to optimal
+            wellness starts with us.
           </h1>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce="true" className="">
+        <AnimationOnScroll
+          animateIn="animate__fadeInRight"
+          animateOnce="true"
+          className=""
+        >
           <img
             src="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1652309483/Oasis%20Integrated%20Health/doctor1_aeqrjg.svg"
             loading="lazy"

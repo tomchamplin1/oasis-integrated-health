@@ -32,15 +32,15 @@ export default function AboutM() {
                 Jeremy White, MD
               </h5>
               <p class="text-gray-700">
-                Jeremy is a physician with more than 25 years of experience. He
-                is a graduate of Southwestern Medical School and attended
-                residency at Vanderbilt University Medical Center. Jeremy’s goal
-                is to prevent the health crises he sees every day. After
-                completing a fellowship in genomic medicine in 2022, his focus
-                has shifted towards prevention, early detection of disease, and
-                health optimization using genetics and integrative medicine.
-                Jeremy is passionate about the maintenance of one's mental and
-                physical capacities regardless of age.
+                With over 25 years of experience in medicine, Dr. Jeremy is
+                dedicated to preventing the health crises he sees every day. A
+                graduate of Southwestern Medical School and former resident of
+                Vanderbilt University Medical Center, Dr. Jeremy's focus has
+                shifted towards prevention, early detection of disease, and
+                health optimization using genetics and integrative medicine
+                after completing a fellowship in nutrigenomic medicine in 2022.
+                He is passionate about helping individuals maintain their mental
+                and physical capacities, regardless of age.
               </p>
             </div>
             <div class="flex-shrink-0 text-left block ">
@@ -48,15 +48,16 @@ export default function AboutM() {
                 Kristen White, APRN, FNP-C
               </h5>
               <p class="text-gray-700">
-                An El Paso native, Kristen is a BSN graduate of Texas Woman’s
-                University and MSN graduate of University of Texas at
-                Arlington's Family Nurse Practictioner program. She has more
-                than 20 years of experience working in the health care field.
-                Kristen has worked with patients of all ages and disease states
-                both in and out of the hospital setting. Over the last 10 years,
-                Kristen’s passion and specialty have moved away from primarily
-                sick management and towards lifestyle optimization and health
-                maintenance throughout the life span.
+                Kristen White, APRN, FNP-C, is a healthcare expert and an El
+                Paso native with over 20 years of experience in the healthcare
+                field. As a BSN graduate of Texas Woman's University and MSN
+                graduate of the University of Texas at Arlington's Family Nurse
+                Practitioner program, Kristen has worked with patients of all
+                ages and disease states in both hospital and outpatient
+                settings. In the past decade, Kristen's passion and specialty
+                have shifted towards lifestyle optimization and health
+                maintenance throughout the lifespan, moving away from primarily
+                sick management.
               </p>
             </div>
           </div>
