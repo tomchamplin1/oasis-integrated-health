@@ -96,7 +96,7 @@ export default function Footer() {
           <a className="text-red-600" href="https://sitecheer.com">
             SiteCheer
           </a>
-          . © 2022{" "}
+          . © 2023{" "}
           <a href="#" class="hover:underline">
             Oasis Integrated Health™
           </a>
