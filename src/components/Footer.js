@@ -45,6 +45,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li class="mb-4">
+                <Link to="/blog" class="hover:underline">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

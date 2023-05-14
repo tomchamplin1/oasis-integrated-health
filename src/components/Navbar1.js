@@ -67,7 +67,8 @@ export default function Navbar1() {
             <li>
               <NavLink
                 to="/"
-                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 md:border-0 border-black md:hover:border-b md:border-black border-gray-100 md:bg-transparent md:p-0"  +
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 md:border-0 border-black md:hover:border-b md:border-black border-gray-100 md:bg-transparent md:p-0" +
                   (isActive ? " text-blue-700" : " text-gray-700")
                 }
                 aria-current="page"
@@ -78,7 +79,8 @@ export default function Navbar1() {
             <li>
               <NavLink
                 to="/about"
-                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0" +
                   (isActive ? " text-blue-700" : " text-gray-700")
                 }
               >
@@ -98,7 +100,8 @@ export default function Navbar1() {
             <li>
               <NavLink
                 to="/faq"
-                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0" +
                   (isActive ? " text-blue-700" : " text-gray-700")
                 }
               >
@@ -108,7 +111,8 @@ export default function Navbar1() {
             <li>
               <NavLink
                 to="/testimonials"
-                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0" +
                   (isActive ? " text-blue-700" : " text-gray-700")
                 }
               >
@@ -118,11 +122,23 @@ export default function Navbar1() {
             <li>
               <NavLink
                 to="/contact"
-                className={({ isActive }) => "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"  +
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0" +
                   (isActive ? " text-blue-700" : " text-gray-700")
                 }
               >
                 Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/blog"
+                className={({ isActive }) =>
+                  "block py-2 pr-4 pl-3 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0" +
+                  (isActive ? " text-blue-700" : " text-gray-700")
+                }
+              >
+                Blog
               </NavLink>
             </li>
           </ul>
