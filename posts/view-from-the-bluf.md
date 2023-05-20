@@ -1,5 +1,5 @@
 ---
-title: View from the "BLUF"
+title: View from the "BLUF" Nutrition
 author: Kristen White
 slug: BLUF-nutrition
 date: 2023-05-20T20:46:46.341Z
