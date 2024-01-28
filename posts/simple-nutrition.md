@@ -3,9 +3,11 @@ title: Simple Nutrition
 author: "R. Kristen White "
 slug: Simple-nutrition
 date: 2024-01-27T23:33:08.210Z
-thumbnail: /images/cropped_image.png
+thumbnail: /images/anh-nguyen-kca-c3f_3fe-unsplash-1-.jpg
 ---
 Simple Nutrition.
+
+T﻿his is a follow up to our first post on nutrition. I wanted to simplify it even further for people. Nutrition has become such a 'hot button' for many. I just want to say up front, it is not so much which diet camp you subscribe to but the quality of the food you are eating. By eating quality food, produced in an ethical and humane way we honor earth, the animals and ourselves. 
 
 There is no one perfect diet for everyone. 
 
@@ -17,6 +19,8 @@ My husband and I are health nuts. For nearly 20 years, we have been and continue
 This is how we eat.
 
 There are a few and only a few food rules we follow:
+
+
 
 1. **Clean meat**. 
 
@@ -38,12 +42,10 @@ Eat plant food as close to its form in nature. A quick sauté, or broil allows f
 
 It is just not good for you. Benefits are over exaggerated. A glass of wine or one beer or one mixed drink is fine, but more than that cannot be supported as healthy. That is not to say we NEVER have a few drinks, however, not on a regular basis. 
 
-\
-5. **Eat at home.** 
+5. **Eat at home.**  
 
 It is just better. Less ingredients, less expensive but way better for you. Simple meals limit one’s exposure to toxins and harmful additives. They can be delicious too! 
 
-\
 6. **No gluten**. 
 
 Our family cannot process gluten. So, we don’t eat it as a rule. Both my husband and I have genes that make us more sensitive to gluten. These have been given to our children. Gluten is inflammatory for EVERYONE. Having said that some people handle it fine. If you have an autoimmune issue or gut issues, gluten is not recommended at all. 
@@ -62,14 +64,23 @@ Monk Fruit: <https://amzn.to/3UeU496>
 
 Allulose: <https://amzn.to/48MGO03>
 
-8. **Eat together**. 
+8﻿. **Eat healthy oils.**
 
-The process of sharing a meal with people you love produces oxytocin which makes us happy. It is good for our mental health, gut health and overall wellbeing. Just the act of slowing down to take the time to eat with your partner, friends, or family reduces stress hormones and increases digestion. We share meals with each other, our one child at home as well as friends and family as much as possible.
+T﻿he food industry has moved to using cheap oils. There are only a few truly healthy oils. We use only avocado oil, coconut oil, or olive oil. All of these organic and minimally processed. 
 
-\
-9. **Eat early**. 
+H﻿ere are a few brands we use: 
+
+Olive oil: https://amzn.to/3vSVDQ2 
+
+A﻿vocado oil: https://amzn.to/3ugaN16
+
+C﻿oconut oil: https://amzn.to/48Sff5m
+
+9. **Eat early and together.**
 
 Eat 3 hours before bed. This is better for sleep. This is not necessarily a nutrition hack but rather a life hack — that has to do with food!
+
+The process of sharing a meal with people you love produces oxytocin which makes us happy. It is good for our mental health, gut health and overall wellbeing. Just the act of slowing down to take the time to eat with your partner, friends, or family reduces stress hormones and increases digestion. We share meals with each other, our one child at home as well as friends and family as much as possible.
 
 10. **Drink filtered Water**.
 
@@ -80,6 +91,10 @@ Life Straw: <https://amzn.to/3UzKSfV>
 Clearly Filtered: <https://amzn.to/3HyjUxg>
 
 Berkey Water Filter: <https://amzn.to/42e6T5q> 
+
+
+
+Y﻿ou may have noticed I did not mention exact macros. This because if you follow those rules, you do not have to spend so much time counting and calulating macros. You will get enough of just about everything!
 
 \
 R﻿emember, eating is more than just food. It is a celebration of the day to come and the day that has been!
