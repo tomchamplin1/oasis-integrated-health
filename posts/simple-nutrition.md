@@ -7,7 +7,7 @@ thumbnail: /images/anh-nguyen-kca-c3f_3fe-unsplash-1-.jpg
 ---
 Simple Nutrition.
 
-T﻿his is a follow up to our first post on nutrition. I wanted to simplify it even further for people. Nutrition has become such a 'hot button' for many. I just want to say up front, it is not so much which diet camp you subscribe to but the quality of the food you are eating. By eating quality food, produced in an ethical and humane way we honor earth, the animals and ourselves. 
+T﻿his is a follow up to our first post on nutrition. I wanted to simplify it even further for people. Nutrition has become such a 'hot button' for many. I just want to say up front, it is not so much which diet camp you subscribe to but the quality of the food you are eating. By eating quality food, produced in an ethical and humane way we honor the earth, the animals, and ourselves. 
 
 There is no one perfect diet for everyone. 
 
@@ -46,6 +46,8 @@ It is just not good for you. Benefits are over exaggerated. A glass of wine or o
 
 It is just better. Less ingredients, less expensive but way better for you. Simple meals limit one’s exposure to toxins and harmful additives. They can be delicious too! 
 
+O﻿f course we eat out. Just not everyday. We reserve eating out for gathering with your friends or special occasions with family or just cause a night or so a week. 
+
 6. **No gluten**. 
 
 Our family cannot process gluten. So, we don’t eat it as a rule. Both my husband and I have genes that make us more sensitive to gluten. These have been given to our children. Gluten is inflammatory for EVERYONE. Having said that some people handle it fine. If you have an autoimmune issue or gut issues, gluten is not recommended at all. 
@@ -81,6 +83,10 @@ C﻿oconut oil: https://amzn.to/48Sff5m
 Eat 3 hours before bed. This is better for sleep. This is not necessarily a nutrition hack but rather a life hack — that has to do with food!
 
 The process of sharing a meal with people you love produces oxytocin which makes us happy. It is good for our mental health, gut health and overall wellbeing. Just the act of slowing down to take the time to eat with your partner, friends, or family reduces stress hormones and increases digestion. We share meals with each other, our one child at home as well as friends and family as much as possible.
+
+Ruscio, M. (2018). Stress and Adrenal Fatigue: The Personalized Plan to Transform Your Health from the Inside Out. In *Healthy Gut Healthy You*.  https://amzn.to/3SKqTK9
+
+https://amzn.to/3SKqTK9
 
 10. **Drink filtered Water**.
 
