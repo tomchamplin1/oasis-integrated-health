@@ -1,6 +1,6 @@
-# Link to site: https://oasisintegratedhealth.netlify.app/
+# Link to site: oi-health.com
 
 ## Built by Tom Champlin @ https://www.sitecheer.com
 
-Built using React, React-Router, Tailwind, and Netlify CMS. Deployed via Netlify.
+Built using Next.js, Tailwind, and Sanity CMS. Deployed via Vercel.
 
